@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-# http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_05_03.html
 # This is a simple script that you can use for creating a Python script tepmplate.
 # 1) cd to the working directory then run
 # 2) add one parameter ($1) which should be a short description - see below example
