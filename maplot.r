@@ -1,9 +1,9 @@
 #!/usr/bin/Rscript
 
 # README:
-# A Rscript file to plot a single shapefile from Linux terminal for data checking
-# sometimes I have an urge to see my shapefile with coordinates quickly, without opening QGIS -
-# e.g. Rscript maplot.r "~/Documents/GEE/python/publdsur.shp"
+# This is an Rscript to plot a single shapefile from Linux terminal for data checking -
+# i.e. sometimes I have an urge to see shapefile visually (and witih coordinates!) without opening QGIS -
+# e.g. Rscript maplot.r "~/GEE/python/publdsur.shp"
 
 # required (needs to be installed prior in R) for maptools = sp, rgeos
 # normally, this commandArgs() - without (TRUE) - come with the following arguments
@@ -26,5 +26,5 @@ X11()
 plot(shp, border = "blue", pch = 10, axes = T)
 
 # pause to give time to examine the plot
-message("Press return to close the plot")
+message("Press return to close the plot window..")
 invisible(readLines("stdin", n=1))
