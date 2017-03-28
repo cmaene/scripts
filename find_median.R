@@ -3,7 +3,7 @@
 # usage : hhincmedian<-find_median(sums,hhincupp,"hhinc")
 # input1: df (data.frame)
 # input2: upps (numeric vector, upper values of each class/range)
-# eg: hhincupp<-c(10000,14999,19999,24999,29999,34999,39999,44999,49999,59999,74999,99999,124999,149999,199999,200000)
+# eg: hhincupp<-c(9999,14999,19999,24999,29999,34999,39999,44999,49999,59999,74999,99999,124999,149999,199999,200000)
 # input3: vheader (string/char, standard variable header name, i.e. "hhinc" for hhinc1, hhinc2, hhinc3, etc.)
 # eg: hhinc1 hhinc2 hhinc3 hhinc4 hhinc5 hhinc6 hhinc7 hhinc8 hhinc9 hhinc10 hhinc11 hhinc12 hhinc13 hhinc14 hhinc15 hhinc16
 #       3051   1675   1394   1604   1327   1284   1002   1026    830    1494    2256    2477    1383     963     953     765
